@@ -1,5 +1,8 @@
 # the number we will perform the collatz operation on.
-n = 20
+#n = 20
+# or use this
+
+n = int(input("Enter a Positive Integer::"))
 
 # Keep looping until we reach 1. 
 # Note: this assumes the collatz conjecture is true.
